@@ -14,8 +14,6 @@ def plotter_timoshenko(xx, w, phi, title_w='w(x)', title_phi='phi(x)'):
     plt.title(title_phi)
     plt.grid(True)
 
-import numpy as np
-
 def apply_dirichlet_block(A, b, dof, value):
     """
     Impone Dirichlet sul sistema (eliminazione tramite riga/colonna).

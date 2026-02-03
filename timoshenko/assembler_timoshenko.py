@@ -100,7 +100,6 @@ def assemble_timoshenko_global(coords, connectivity, E, I, G, A, kappa, q=0, m=0
     Restituisce:
         K (2N x 2N), F (2N)
     """
-
     Nnodes = len(coords)
     Ndof = 2 * Nnodes             # w, phi per nodo
     Ne = len(connectivity)
